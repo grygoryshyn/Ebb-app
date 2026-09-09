@@ -77,4 +77,4 @@ acceptance of the revised terms.
 
 ## Contact
 
-**[SUPPORT EMAIL]**
+**oleksii.grygoryshyn@gmail.com**
