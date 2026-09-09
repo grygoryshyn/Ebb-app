@@ -1,3 +1,7 @@
+---
+title: Ebb — Privacy Policy
+---
+
 # Privacy Policy for Ebb
 
 **Last updated: [DATE BEFORE SUBMISSION]**

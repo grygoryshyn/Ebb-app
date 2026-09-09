@@ -1,3 +1,7 @@
+---
+title: Ebb — Terms of Use
+---
+
 # Terms of Use for Ebb
 
 **Last updated: [DATE BEFORE SUBMISSION]**

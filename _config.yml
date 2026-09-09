@@ -1,0 +1,9 @@
+# GitHub Pages configuration for the Ebb support site.
+#
+# `theme` gives the four pages a readable default without any CSS of
+# our own. Swap it later if the site ever needs to look like the app;
+# for the two pages App Review actually opens, plain and legible beats
+# designed.
+title: Ebb
+description: Time, visualized.
+theme: jekyll-theme-minimal
