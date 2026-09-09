@@ -1,0 +1,125 @@
+---
+---
+
+// Ebb — site styling.
+//
+// The colours are the app's own, taken from DesignSystem.swift rather
+// than eyeballed from a screenshot, so the site and the product cannot
+// drift apart:
+//
+//   ebbBackground   Color(red: 0.06, green: 0.06, blue: 0.10)  #0F0F1A
+//   ebbAccent       Color(red: 1.00, green: 0.54, blue: 0.40)  #FF8A66
+//   ebbAccentDeep   Color(red: 0.90, green: 0.29, blue: 0.10)  #E64A1A
+//
+// The dark blue in the app is not a flat fill — it is the deep end of
+// the water pool gradient, and the header below uses it the same way.
+//
+// Imported after the theme so these rules win without !important.
+@import "{{ site.theme }}";
+
+:root {
+  --ebb-bg:          #0F0F1A;
+  --ebb-bg-deep:     #0A0A12;
+  --ebb-blue:        #0B2A5B;   // deep water
+  --ebb-blue-soft:   #123A73;
+  --ebb-accent:      #FF8A66;
+  --ebb-accent-deep: #E64A1A;
+  --ebb-text:        rgba(255, 255, 255, 0.92);
+  --ebb-muted:       rgba(255, 255, 255, 0.60);
+  --ebb-border:      rgba(255, 255, 255, 0.10);
+  --ebb-card:        rgba(255, 255, 255, 0.05);
+}
+
+body {
+  background: var(--ebb-bg);
+  // A single wash of deep water at the top, fading out well before the
+  // text starts. Same idea as the pool's own gradient: the colour is
+  // strongest where the "water" is and gone by the time it would
+  // compete with anything you have to read.
+  background-image:
+    radial-gradient(1200px 520px at 20% -10%, var(--ebb-blue) 0%, rgba(11, 42, 91, 0) 62%),
+    radial-gradient(900px 420px at 92% -4%, rgba(230, 74, 26, 0.16) 0%, rgba(230, 74, 26, 0) 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--ebb-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+header {
+  width: auto;
+  float: none;
+  position: static;
+  padding: 56px 0 8px;
+  border-bottom: 1px solid var(--ebb-border);
+  margin-bottom: 36px;
+}
+
+section { width: auto; float: none; padding-bottom: 72px; }
+footer  { width: auto; float: none; position: static; }
+
+h1, h2, h3 { color: #fff; font-weight: 700; letter-spacing: -0.01em; }
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0 0 4px;
+  // The wordmark is accent-coloured in the app; matching it is most of
+  // what makes the site read as the same product.
+  color: var(--ebb-accent);
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.4em;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ebb-border);
+}
+
+h3 { font-size: 1.08rem; margin-top: 1.8em; color: var(--ebb-text); }
+
+p, li { color: var(--ebb-text); line-height: 1.65; }
+strong { color: #fff; }
+
+a {
+  color: var(--ebb-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 138, 102, 0.35);
+}
+a:hover { color: #fff; border-bottom-color: var(--ebb-accent); }
+
+hr { border: 0; border-top: 1px solid var(--ebb-border); margin: 2.5em 0; }
+
+blockquote {
+  border-left: 3px solid var(--ebb-accent-deep);
+  background: var(--ebb-card);
+  color: var(--ebb-muted);
+  padding: 12px 18px;
+  margin-left: 0;
+}
+
+code, pre {
+  background: var(--ebb-card);
+  border: 1px solid var(--ebb-border);
+  border-radius: 8px;
+  color: var(--ebb-accent);
+}
+code { padding: 2px 6px; font-size: 0.9em; }
+pre  { padding: 14px 16px; overflow-x: auto; }
+pre code { background: none; border: 0; padding: 0; color: var(--ebb-text); }
+
+table { border-collapse: collapse; width: 100%; margin: 1.5em 0; }
+th, td { border: 1px solid var(--ebb-border); padding: 10px 14px; text-align: left; }
+th { background: var(--ebb-card); color: #fff; }
+
+// The theme prints its own site title and description in the sidebar;
+// each page states its own heading, so this would be a duplicate.
+header h1, header p { display: none; }
+
+@media print {
+  // Review sometimes prints these. Legibility beats branding on paper.
+  body { background: #fff; color: #000; }
+  a, h1, h2, code { color: #000; }
+}
