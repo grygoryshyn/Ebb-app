@@ -4,7 +4,7 @@ title: Ebb — Privacy Policy
 
 # Privacy Policy for Ebb
 
-**Last updated: [DATE BEFORE SUBMISSION]**
+**Last updated: 10/09/2026**
 
 ## The short version
 
