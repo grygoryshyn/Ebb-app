@@ -71,4 +71,4 @@ is likely to be a clarification rather than a change in practice.
 
 ## Contact
 
-Questions about privacy in Ebb: **[SUPPORT EMAIL]**
+Questions about privacy in Ebb: **oleksii.grygoryshyn@gmail.com**
