@@ -4,7 +4,7 @@ title: Ebb — Support
 
 # Ebb Support
 
-Email **[SUPPORT EMAIL]** and you will get a reply from a person.
+Email **oleksii.grygoryshyn@gmail.com** and you will get a reply from a person.
 
 When something is wrong, these three things usually save a round trip:
 your iOS version, your device, and what you expected to happen instead.
