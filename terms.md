@@ -4,7 +4,7 @@ title: Ebb — Terms of Use
 
 # Terms of Use for Ebb
 
-**Last updated: [DATE BEFORE SUBMISSION]**
+**Last updated: 10/09/2026**
 
 ## Agreement
 
