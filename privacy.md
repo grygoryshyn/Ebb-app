@@ -14,8 +14,8 @@ if you turn on sync, in your own iCloud account.
 
 ## What Ebb stores, and where
 
-Everything you create in Ebb — moment names, emoji, start and end dates,
-visualization choices, and reminder settings — is stored locally on
+Everything you create in Ebb: moment names, emoji, start and end dates,
+visualisation choices, and reminder settings — is stored locally on
 your device.
 
 If you have Ebb Pro and iCloud sync enabled, that same data is also
@@ -23,7 +23,7 @@ stored in **your** private iCloud database. That database belongs to
 your Apple Account. Apple provides the storage; we cannot read it, and
 neither can anyone else without your Apple Account credentials.
 
-Your app preferences (such as your default visualization) are stored on
+Your app preferences (such as your default visualisation) are stored on
 your device.
 
 ## What Ebb does not do
