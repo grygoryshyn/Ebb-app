@@ -28,7 +28,7 @@ medical, legal, or financial.
 
 Ebb schedules reminders using iOS local notifications. Their delivery
 depends on iOS, on your device's settings, and on system limits outside
-Ebb's control — including the operating system's cap on how many
+Ebb's control, including the operating system's cap on how many
 notifications an app may have pending at once. **Do not rely on Ebb for
 anything where a missed reminder matters.**
 
