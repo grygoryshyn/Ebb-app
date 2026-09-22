@@ -1,6 +1,6 @@
 # Ebb
 
-Public pages for **Ebb**, an iOS app that turns a deadline into
+Public pages for **Ebb**, an iOS app that turns a moment in time into
 something you can watch.
 
 The app source is not in this repository. These are the pages the App
