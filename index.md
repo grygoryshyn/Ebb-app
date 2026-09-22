@@ -4,10 +4,10 @@ title: Ebb
 
 # Ebb
 
-**Time, visualized.**
+**Time, visualised.**
 
-Ebb turns a deadline into something you can watch. Pick a date, pick a
-shape — a ball pit, an hourglass, or a pool of water — and the gap
+Ebb turns a moment in time into something you can watch. Pick a date, pick a
+visualisation: a ball pit, an hourglass, or a pool of water, and the gap
 between now and then becomes a physical object that fills, drains and
 responds to how you hold your phone.
 
