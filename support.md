@@ -32,7 +32,7 @@ Open **Settings → Restore Purchases** in Ebb. Your purchase is tied to
 your Apple Account, so make sure you are signed in with the same one
 you bought it with.
 
-### The visualization is not moving
+### The visualisation is not moving
 
 If **Settings → Accessibility → Motion → Reduce Motion** is on, Ebb
 shows your moments as still images by design. Everything is still there
