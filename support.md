@@ -24,7 +24,7 @@ if you have a great many moments.
 
 Sync requires Ebb Pro and iCloud. Check that you are signed into the
 same Apple Account on both devices and that **iCloud Drive** is on.
-Sync happens in the background and can take a moment after a change.
+Sync happens in the background and can take some time after a change.
 
 ### I bought Ebb Pro but a new device does not have it
 
