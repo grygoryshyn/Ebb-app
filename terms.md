@@ -35,7 +35,7 @@ anything where a missed reminder matters.**
 ## Ebb Pro
 
 Ebb Pro is a one-time, non-consumable in-app purchase that unlocks
-unlimited active goals, iCloud sync, Live Activities, Lock Screen
+unlimited active moments, iCloud sync, Live Activities, Lock Screen
 widgets, and the advanced reminder plans.
 
 It is tied to your Apple Account and can be restored on your devices
@@ -48,7 +48,7 @@ an additional purchase.
 
 ## Your data
 
-Your goals are yours. Ebb stores them on your device and, with Pro and
+Your moments are yours. Ebb stores them on your device and, with Pro and
 sync enabled, in your own iCloud account. See the Privacy Policy for
 details.
 
