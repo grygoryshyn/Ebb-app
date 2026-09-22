@@ -19,7 +19,7 @@ apply.
 
 ## What Ebb does
 
-Ebb visualizes the time remaining until dates you choose. It is a
+Ebb visualises the time remaining until dates you choose. It is a
 countdown and motivation tool. It is not a calendar, a task manager, or
 a reminder service you should rely on for anything time-critical,
 medical, legal, or financial.
