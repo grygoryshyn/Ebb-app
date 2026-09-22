@@ -9,12 +9,12 @@ title: Ebb — Privacy Policy
 ## The short version
 
 Ebb does not collect anything. It has no servers, no analytics, no
-accounts, and no third-party SDKs. Your goals stay on your device and,
+accounts, and no third-party SDKs. Your moments stay on your device and,
 if you turn on sync, in your own iCloud account.
 
 ## What Ebb stores, and where
 
-Everything you create in Ebb — goal names, emoji, start and end dates,
+Everything you create in Ebb — moment names, emoji, start and end dates,
 visualization choices, and reminder settings — is stored locally on
 your device.
 
@@ -41,7 +41,7 @@ purchase or restore Ebb Pro.
 ## Notifications
 
 Reminders are scheduled and delivered entirely on your device using
-iOS's local notification system. Nothing about your goals is
+iOS's local notification system. Nothing about your moments is
 transmitted anywhere to produce them. You can revoke notification
 permission at any time in iOS Settings.
 
@@ -58,7 +58,7 @@ from anyone, including children.
 
 ## Deleting your data
 
-Deleting a goal removes it from your device and, if sync is on, from
+Deleting a moment removes it from your device and, if sync is on, from
 your iCloud database. Deleting the app removes all local data. To
 remove synced data, use **Settings → [your name] → iCloud → Manage
 Account Storage** on your device.
