@@ -36,7 +36,7 @@ you bought it with.
 
 If **Settings → Accessibility → Motion → Reduce Motion** is on, Ebb
 shows your moments as still images by design. Everything is still there
-and still accurate — it just holds still.
+and still accurate, it just holds still.
 
 ### Can I get a refund?
 
