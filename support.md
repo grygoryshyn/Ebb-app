@@ -16,11 +16,11 @@ your iOS version, your device, and what you expected to happen instead.
 Check that notifications are allowed in **Settings → Ebb →
 Notifications**. iOS also limits how many pending notifications any app
 may hold at once; Ebb budgets against that limit and always reserves
-room for the notification that tells you a goal has been reached, but a
-goal far in the future may have some of its earlier milestones dropped
-if you have a great many goals.
+room for the notification that tells you a moment has been reached, but a
+moment far in the future may have some of its earlier milestones dropped
+if you have a great many moments.
 
-### My goals are not syncing between devices
+### My moments are not syncing between devices
 
 Sync requires Ebb Pro and iCloud. Check that you are signed into the
 same Apple Account on both devices and that **iCloud Drive** is on.
@@ -35,7 +35,7 @@ you bought it with.
 ### The visualization is not moving
 
 If **Settings → Accessibility → Motion → Reduce Motion** is on, Ebb
-shows your goals as still images by design. Everything is still there
+shows your moments as still images by design. Everything is still there
 and still accurate — it just holds still.
 
 ### Can I get a refund?
